@@ -8,6 +8,8 @@ The code is an analogue of the package knds_orbits_and_shadows (https://pypi.org
 
 First, install Python 3.10 (along with the libraries numpy, scipy, matplotlib, cmath, os, pickel) and its packages opencv-python 4.10 (https://pypi.org/project/opencv-python/) and imageio 2.36 (https://pypi.org/project/imageio/). The latter package is used to handle create gif files for shadows of black holes.
 
+Alternatively, the package can be installed using pip, via the command "pip install elev_orbits_and_shadows"; see also https://pypi.org/project/elev-orbits-and-shadows/
+
 Next, put the content of the present folder anywhere and in the examples.py file, change the first line to match the directory of the files (and images!).
 Execute the file examples.py; it uses all the functions of the programs, so it should be a good indicator of the sanity of the package. It is divided in three parts: the first one tests the orbit and shadow display, the second one creates four gif files named 'comet_*.gif' depicting animated orbits and the third one creates the folders figureLorentzian_gif and figureEuclidean_gif, containing gif files, that represent the shadow of a Lorentzian (resp. Euclidean) Reissner-Nordstrom spacetime, with a background celestial sphere that moves diagonally. The full execution takes about one minute and a half on a 12-core 2.60 GHz CPU with 16 Go of RAM.
 
